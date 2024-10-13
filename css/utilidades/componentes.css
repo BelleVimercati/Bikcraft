@@ -22,6 +22,8 @@
   font-family: "Poppins";
   font-weight: 600;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -87,6 +89,10 @@
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.titulo{
+  background: url(../../img/dec/bottom-right.svg) no-repeat top right 20px;
 }
 
 .titulo-bg p{
