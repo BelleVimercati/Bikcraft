@@ -13,6 +13,8 @@ O projeto abrange desde a criação do UI Design até a codificação do front-e
 - CSS
 - JavaScript
 
+link do projeto: http://bikcraft-portifolio.vercel.app
+
 <h3>🖥️ Instalação</h3>
 
 1. Clone o repositório:
