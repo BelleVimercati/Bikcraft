@@ -144,7 +144,7 @@
                     <label for="estado">Estado</label>
                     <input type="text" id="estado" name="estado" placeholder="Seu estado">
                 </div>
-                <button class="botao col-2">Solicitar Orçamento</button>
+                <button class="botao col-2" onclick="impedirEnvio(event)">Solicitar Orçamento</button>
             </div>
         </form>
     </main>
@@ -188,6 +188,11 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script>
+        function impedirEnvio(event) {
+          event.preventDefault(); // Impede o comportamento padrão de submissão
+        }
+      </script>
 </body>
 
 </html>
